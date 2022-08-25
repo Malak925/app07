@@ -182,68 +182,68 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      margin: EdgeInsets.only(top: 40),
+                        margin: EdgeInsets.only(top: 40),
                         child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Container(
-                          child: ElevatedButton.icon(
-                              icon: Icon(
-                                color: Colors.black,
-                                Icons.language,
-                              ),
-                              label: Text(
-                                "",
-                                style: TextStyle(fontSize: 1),
-                              ),
-                              onPressed: () {
-                                print("languages");
-                              }),
-                        ),
-                        Container(
-                          child: ElevatedButton.icon(
-                              icon: Icon(
-                                color: Colors.black,
-                                Icons.ac_unit,
-                              ),
-                              label: Text(
-                                "",
-                                style: TextStyle(fontSize: 1),
-                              ),
-                              onPressed: () {
-                                print("Tempreture");
-                              }),
-                        ),
-                        Container(
-                          child: ElevatedButton.icon(
-                              icon: Icon(
-                                color: Colors.black,
-                                Icons.access_time,
-                              ),
-                              label: Text(
-                                "",
-                                style: TextStyle(fontSize: 1),
-                              ),
-                              onPressed: () {
-                                print("Time");
-                              }),
-                        ),
-                        Container(
-                          child: ElevatedButton.icon(
-                              icon: Icon(
-                                color: Colors.black,
-                                Icons.youtube_searched_for_sharp,
-                              ),
-                              label: Text(
-                                "",
-                                style: TextStyle(fontSize: 1),
-                              ),
-                              onPressed: () {
-                                print("Refresh");
-                              }),
-                        ),
-                      ],
-                    )),
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Container(
+                              child: ElevatedButton.icon(
+                                  icon: Icon(
+                                    color: Colors.black,
+                                    Icons.language,
+                                  ),
+                                  label: Text(
+                                    "",
+                                    style: TextStyle(fontSize: 1),
+                                  ),
+                                  onPressed: () {
+                                    print("languages");
+                                  }),
+                            ),
+                            Container(
+                              child: ElevatedButton.icon(
+                                  icon: Icon(
+                                    color: Colors.black,
+                                    Icons.ac_unit,
+                                  ),
+                                  label: Text(
+                                    "",
+                                    style: TextStyle(fontSize: 1),
+                                  ),
+                                  onPressed: () {
+                                    print("Tempreture");
+                                  }),
+                            ),
+                            Container(
+                              child: ElevatedButton.icon(
+                                  icon: Icon(
+                                    color: Colors.black,
+                                    Icons.access_time,
+                                  ),
+                                  label: Text(
+                                    "",
+                                    style: TextStyle(fontSize: 1),
+                                  ),
+                                  onPressed: () {
+                                    print("Time");
+                                  }),
+                            ),
+                            Container(
+                              child: ElevatedButton.icon(
+                                  icon: Icon(
+                                    color: Colors.black,
+                                    Icons.youtube_searched_for_sharp,
+                                  ),
+                                  label: Text(
+                                    "",
+                                    style: TextStyle(fontSize: 1),
+                                  ),
+                                  onPressed: () {
+                                    print("Refresh");
+                                  }),
+                            ),
+                          ],
+                        )),
                     Container(
                       // margin: EdgeInsets.symmetric(vertical: 40),
                       child: Column(
@@ -267,7 +267,7 @@ class MyApp extends StatelessWidget {
                         ],
                       ),
                     ),
-                   Container(
+                    Container(
                       margin: EdgeInsets.symmetric(vertical: 40),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -291,14 +291,15 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      //  margin: EdgeInsets.only(top: 40),
+                        //  margin: EdgeInsets.only(top: 40),
                         child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
+                          // decoration: BoxDecoration(color: Colors.black, borderRadius: BorderRadius.circular(50)),
                           child: ElevatedButton.icon(
+                              // style: ElevatedButton.styleFrom(primary: Colors.black,),
                               icon: Icon(
-                                color: Colors.black,
                                 Icons.language,
                               ),
                               label: Text(
@@ -353,9 +354,43 @@ class MyApp extends StatelessWidget {
                         ),
                       ],
                     )),
-                    
-                    Container(),
-                    Container()
+                    Container(
+                      margin: EdgeInsets.only(top: 50),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Container(
+                            width: 50,
+                            height: 50,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(50),
+                                color: Colors.yellow),
+                          ),
+                          Container(
+                            width: 50,
+                            height: 50,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(50),
+                                color: Colors.red),
+                          ),
+                          Container(
+                            width: 50,
+                            height: 50,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(50),
+                                color: Colors.blue),
+                          ),
+                          Container(
+                            width: 50,
+                            height: 50,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(50),
+                                color: Colors.green),
+                          )
+                        ],
+                      ),
+                    ),
+                 
                   ]),
                 ),
               ],
